@@ -34,8 +34,7 @@ cat ${i}2NTS57invOut.txt | grep '#' > ${i}2NTS57_INV.xls
                 echo -e "${chr}\t${pos}\t.\t${ref_seq}\t${alt_seq}\t30\tPASS\t.\tGT\t1/1" >> convert_vcf/${i}_NTS57_syri_INV.vcf
         done
 done
-(base) [GSAUWuzf@xnode17 minimap2NTS57]$ nohup sh syri2vcf.sh &
-[2] 156529
+nohup sh syri2vcf.sh &
 
 
 ### DEL INS
